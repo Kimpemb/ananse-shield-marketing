@@ -14,7 +14,7 @@ export function CTA() {
   return (
     <section id="cta" className="px-8 py-24 text-center md:px-16">
       <h2 className="font-display text-3xl font-semibold text-warm">Want to see it live?</h2>
-      <a href="mailto:hello@ananseshield.com" className="mt-6 inline-block rounded-full bg-amber px-8 py-3 font-body font-medium text-night hover:opacity-90">
+      <a href="mailto:hello@ananseshield.com" className="mt-6 inline-block rounded-full bg-amber px-8 py-3 font-body font-medium text-night transition hover:-translate-y-0.5 hover:brightness-110">
         Request a demo
       </a>
     </section>
